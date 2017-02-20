@@ -4,8 +4,6 @@
 }
 
 body{
-	background:black;
-	color:white;
 	font-family: 'Robato', sans-serif;
 }
 
@@ -19,40 +17,40 @@ li {
 
 a {
 	text-decoration: none;
+	color:#000;
 }
 
-nav {
-	width:30%;
-	padding-top:20px;
-	position:fixed;
-	top:0;
-	left:35.5%;
-	color:#fff;
+header {
+	background:#777;
+	color:white;
+	overflow:hidden;
+	padding:0 1%;
 }
 
-nav li {
-	background:black;
-	float:left;
-	width:32%;
-	text-align:center;
-	border:white solid 1px;
-	border-radius:5px;
-}
-
-nav li a{
-	
+header a {
 	color:white;
 }
 
-nav li:hover {
-	background:white;
-	color:black;
-	border:black solid 1px;
+header a:hover {
+	color:#000;
+	transition:ease 1s;
 }
 
-nav li:hover a {
-	color:black;
+
+nav {
+	color:#fff;
+	width: 30%;
+	float:right;
 }
+
+nav li {
+	float:left;
+	width:33%;
+	text-align:center;
+	font-size: 120%;
+	margin:5% 0;
+}
+
 
 .fourNav {
 	width:38%;
@@ -64,36 +62,20 @@ nav li:hover a {
 }
 
 
-h1,h2 {
+h1,h2,h3 {
 	font-family: 'Lato', sans-serif;
-	margin:0px auto;
-	width:50%;
-	text-align: center;
 	
 }
 
 h1 {
-	font-size: 500%;
-	padding-top:10%;
-	padding-bottom:20%;
-}
-
-#firstHeader {
-	margin-top:15%;
-	margin-bottom:1%;
-	padding:0px;
-}
-
-h2 {
-	margin-bottom:40px;
-	margin-bottom:15%;
+	margin-top:9%;
+	margin-bottom:2%;
+	font-size:350%;
 }
 
 h3 {
-	margin-top:9%;
-	margin-bottom:11%;
-	font-family: 'Lato', sans-serif;
-	font-size:300%;
+	font-size: 200%;
+	padding:1%;
 }
 
 #portfolio {
@@ -106,31 +88,27 @@ h4 {
 	font-size:150%;
 }
 
-main {
-	background:white;
-	color:black;
+table {
+	border-spacing: 1.5em;
 }
 
-.white {
-	margin:0 auto;
-	width:95%;
-	border-left:black solid 2px;
-	border-right:black solid 2px;
-	padding:3% 0px;
-	clear:both;
+.card {
+    transition: 0.3s;
 }
-.black {
-	margin:0 auto;
-	width:95%;
-	border-left:white solid 2px;
-	border-right:white solid 2px;
-	overflow:hidden;
-	clear:both;
-	padding:3% 0px;
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(68,102,255,0.4);
+	transition:ease 1s;
 }
+
+.container {
+    padding: 2px 16px;
+}
+
+
 
 .wrapper {
-	width:940px;
+	width:90%;
 	margin:0 auto;
 	overflow:hidden;
 }
@@ -179,7 +157,7 @@ footer li {
 
 footer li:nth-child(2){
 	float:left;
-	margin-right:1%;
+	margin-right:2%;
 }
 
 footer li:nth-child(3){
@@ -188,31 +166,24 @@ footer li:nth-child(3){
 
 footer a {
 	color:white;
-	border:white 2px solid;
-	border-radius:5px;
-	padding:5px;
 }
 
 footer a:hover {
 	color:black;
-	background:white;
+	transition:ease 1s;
 }
 
 #contactMe {
-	color:black;
-	background:white;
+	color:#fff;
+	background:#777;
 }
 
 #contactMe a {
-	color:black;
-	border:black 1px solid;
-	border-radius:5px;
-	padding:5px;
+	color:#fff;
 }
 
 #contactMe a:hover {
-	color:white;
-	background:black;
+	color:#000;
 }
 
 .parallax {
