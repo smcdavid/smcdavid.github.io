@@ -3,8 +3,8 @@ $(document).ready(function(){
 	//will make pages fade in
     $('body').hide().fadeIn(1200);
 	
-	$('#firstHeader').hide().fadeIn(2200);
-	$('#firstSub').hide().fadeIn(3200);
+	$('.firstHeader').hide().fadeIn(1500);
+	$('.card').hide().fadeIn(1600);
 	
 });
 
