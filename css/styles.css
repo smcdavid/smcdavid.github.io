@@ -24,11 +24,11 @@ header {
 	overflow:hidden;
 	padding:0 1%;
 	font-family: 'Lato', sans-serif;
-	border-bottom:#365f91 1px solid;
+	border-bottom:#3f893f 1px solid;
 }
 
 header a {
-	color:#365f91;
+	color:#3f893f;
 }
 
 header a:hover {
@@ -71,7 +71,7 @@ h2 {
 
 h3 {
 	font-size: 200%;
-	color:#365f91;
+	color:#3f893f;
 	margin-bottom:2%;
 }
 
@@ -148,6 +148,7 @@ img {
 
 p {
 	margin-bottom:5%;
+	margin-left:2%;
 	line-height:1.5em;
 	width:50%;
 }
@@ -162,6 +163,11 @@ p a {
 p a:hover {
 	color:#FFF;
 	background:#000;
+}
+
+hr {
+	margin-bottom:4%;
+	fill:#3f893f;
 }
 
 footer ul {
