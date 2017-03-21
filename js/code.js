@@ -1,10 +1,10 @@
 $(document).ready(function(){
     
 	//will make pages fade in
-    $('body').hide().fadeIn(1200);
+    $('body').hide().fadeIn(1000);
 	
-	$('.firstHeader').hide().fadeIn(1500);
-	$('.card').hide().fadeIn(1600);
+	$('.firstHeader').hide().fadeIn(1200);
+	$('.card').hide().fadeIn(1200);
 	
 });
 

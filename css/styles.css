@@ -109,6 +109,32 @@ main section {
 	margin:0 auto;
 }
 
+.middle {
+	margin-left:40%;
+	
+}
+
+aside h3 {
+	margin-top:3%;
+}
+
+aside ul {
+	margin:0 auto;
+	width:65%;
+}
+
+aside ul li {
+	margin-bottom:2%;
+	line-height:1.7em;
+	list-style-type: circle;
+}
+
+.storyboard {
+	margin-bottom:5%;
+	width:80%;
+	display:block;
+}
+
 .left {
 	float:left;
 	width:25%;
@@ -132,21 +158,25 @@ img {
 
 p {
 	margin:0 auto;
-	margin-bottom:5%;
-	line-height:2em;
+	margin-bottom:2%;
+	line-height:1.7em;
 	width:75%;
 }
 
 p a {
-	color:black;
-	border:black 1px solid;
+	color:#3f893f;
+	border:#3f893f 1px solid;
 	border-radius:5px;
-	padding:5px;
+	padding:.4em;
 }
 
 p a:hover {
 	color:#FFF;
-	background:#000;
+	background:#3f893f;
+}
+
+p img {
+	margin:0 auto;
 }
 
 hr {
@@ -156,6 +186,12 @@ hr {
 
 figure {
 	margin-bottom:4%;
+	margin-top:5%;
+}
+
+figure img {
+	display:block;
+	margin:0 auto;
 }
 
 figcaption {
@@ -163,6 +199,10 @@ figcaption {
 	margin-left:3%;
 	color:#555;
 	font-style: italic;
+}
+
+.pushed {
+	margin-left:25%;
 }
 
 footer ul {
@@ -207,6 +247,12 @@ footer a:hover {
 	margin-bottom:7%;
 }
 
+.invision {
+	display:block;
+	margin-top:-11em;
+	transform: scale(0.6);
+}
+
 .parallax {
 	
     /* The image used */
@@ -244,4 +290,43 @@ table {
 	
 .container {
     padding: 5% 1em;
+}
+
+/*Back to top button*/
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: rgba(63, 137, 63, 0.8) url(../images/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.no-touch .cd-top:hover {
+  background-color: #3f893f;
+  opacity: 1;
 }
