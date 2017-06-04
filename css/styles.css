@@ -20,6 +20,10 @@ a {
 	color:#000;
 }
 
+.underline {
+	text-decoration: underline;
+}
+
 a:hover {
 	color:#3f893f;
 	transition:ease 1s;
