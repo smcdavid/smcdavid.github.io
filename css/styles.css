@@ -113,6 +113,33 @@ main section {
 	margin-left:40%;
 	
 }
+.row {
+	height:400px;
+	margin-bottom: 2%;
+}
+
+.left-box {
+	width:31%;
+	height:95%;
+	float:left;
+	margin-right:3%;
+}
+
+.left-box img {
+	height:250px;
+	width:100%;
+}
+
+.last-box {
+	width:31%;
+	height:95%;
+	float:left;
+}
+
+.last-box img {
+	height:250px;
+	width:100%;
+}
 
 aside h3 {
 	margin-top:3%;
@@ -268,12 +295,9 @@ footer a:hover {
 }
 
 /*CSS for Cards on Index Page*/
-table {
-	border-spacing: 3em;
-}
-
 .card {
     transition: 0.3s;
+	
 }
 
 .card:hover {
