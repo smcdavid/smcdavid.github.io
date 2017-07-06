@@ -1,0 +1,1094 @@
+[
+  {
+    "Country Name": "US Immigrants",
+    "Country Code": "USIM",
+    "Year": 2014,
+    "Value": 927000000000
+  },
+ {
+   "Country Name": "Afghanistan",
+   "Country Code": "AFG",
+   "Year": 2014,
+   "Value": 20841951232
+ },
+ {
+   "Country Name": "Algeria",
+   "Country Code": "DZA",
+   "Year": 2014,
+   "Value": 214063000000
+ },
+ {
+   "Country Name": "Angola",
+   "Country Code": "AGO",
+   "Year": 2014,
+   "Value": 131401000000
+ },
+ {
+   "Country Name": "Antigua and Barbuda",
+   "Country Code": "ATG",
+   "Year": 2014,
+   "Value": 1269117037
+ },
+ {
+   "Country Name": "Argentina",
+   "Country Code": "ARG",
+   "Year": 2014,
+   "Value": 540197000000
+ },
+ {
+   "Country Name": "Armenia",
+   "Country Code": "ARM",
+   "Year": 2014,
+   "Value": 10881605059
+ },
+ {
+   "Country Name": "Australia",
+   "Country Code": "AUS",
+   "Year": 2014,
+   "Value": 1453770000000
+ },
+ {
+   "Country Name": "Austria",
+   "Country Code": "AUT",
+   "Year": 2014,
+   "Value": 436344000000
+ },
+ {
+   "Country Name": "Azerbaijan",
+   "Country Code": "AZE",
+   "Year": 2014,
+   "Value": 75198010965
+ },
+ {
+   "Country Name": "Bahamas, The",
+   "Country Code": "BHS",
+   "Year": 2014,
+   "Value": 8510500000
+ },
+ {
+   "Country Name": "Bahrain",
+   "Country Code": "BHR",
+   "Year": 2014,
+   "Value": 33868989362
+ },
+ {
+   "Country Name": "Bangladesh",
+   "Country Code": "BGD",
+   "Year": 2014,
+   "Value": 173819000000
+ },
+ {
+   "Country Name": "Barbados",
+   "Country Code": "BRB",
+   "Year": 2014,
+   "Value": 4348000000
+ },
+ {
+   "Country Name": "Belarus",
+   "Country Code": "BLR",
+   "Year": 2014,
+   "Value": 76139250365
+ },
+ {
+   "Country Name": "Belgium",
+   "Country Code": "BEL",
+   "Year": 2014,
+   "Value": 533383000000
+ },
+ {
+   "Country Name": "Benin",
+   "Country Code": "BEN",
+   "Year": 2014,
+   "Value": 8746992733
+ },
+ {
+   "Country Name": "Bolivia",
+   "Country Code": "BOL",
+   "Year": 2014,
+   "Value": 34175832127
+ },
+ {
+   "Country Name": "Bosnia and Herzegovina",
+   "Country Code": "BIH",
+   "Year": 2014,
+   "Value": 18344278253
+ },
+ {
+   "Country Name": "Botswana",
+   "Country Code": "BWA",
+   "Year": 2014,
+   "Value": 15813371063
+ },
+ {
+   "Country Name": "Brazil",
+   "Country Code": "BRA",
+   "Year": 2014,
+   "Value": 2346120000000
+ },
+ {
+   "Country Name": "Brunei Darussalam",
+   "Country Code": "BRN",
+   "Year": 2014,
+   "Value": 17256754269
+ },
+ {
+   "Country Name": "Bulgaria",
+   "Country Code": "BGR",
+   "Year": 2014,
+   "Value": 55734676435
+ },
+ {
+   "Country Name": "Burkina Faso",
+   "Country Code": "BFA",
+   "Year": 2014,
+   "Value": 12542969275
+ },
+ {
+   "Country Name": "Burundi",
+   "Country Code": "BDI",
+   "Year": 2014,
+   "Value": 3093647293
+ },
+ {
+   "Country Name": "Cabo Verde",
+   "Country Code": "CPV",
+   "Year": 2014,
+   "Value": 1871187334
+ },
+ {
+   "Country Name": "Cambodia",
+   "Country Code": "KHM",
+   "Year": 2014,
+   "Value": 16709432403
+ },
+ {
+   "Country Name": "Cameroon",
+   "Country Code": "CMR",
+   "Year": 2014,
+   "Value": 32548591286
+ },
+ {
+   "Country Name": "Canada",
+   "Country Code": "CAN",
+   "Year": 2014,
+   "Value": 1786660000000
+ },
+ {
+   "Country Name": "Central African Republic",
+   "Country Code": "CAF",
+   "Year": 2014,
+   "Value": 1782927903
+ },
+ {
+   "Country Name": "Chad",
+   "Country Code": "TCD",
+   "Year": 2014,
+   "Value": 13922224561
+ },
+ {
+   "Country Name": "Chile",
+   "Country Code": "CHL",
+   "Year": 2014,
+   "Value": 258062000000
+ },
+ {
+   "Country Name": "China",
+   "Country Code": "CHN",
+   "Year": 2014,
+   "Value": 10360100000000
+ },
+ {
+   "Country Name": "Colombia",
+   "Country Code": "COL",
+   "Year": 2014,
+   "Value": 377740000000
+ },
+ {
+   "Country Name": "Comoros",
+   "Country Code": "COM",
+   "Year": 2014,
+   "Value": 647720102.5
+ },
+ {
+   "Country Name": "Congo, Dem. Rep.",
+   "Country Code": "COD",
+   "Year": 2014,
+   "Value": 32962261156
+ },
+ {
+   "Country Name": "Congo, Rep.",
+   "Country Code": "COG",
+   "Year": 2014,
+   "Value": 14135462556
+ },
+ {
+   "Country Name": "Costa Rica",
+   "Country Code": "CRI",
+   "Year": 2014,
+   "Value": 49552580683
+ },
+ {
+   "Country Name": "Cote d'Ivoire",
+   "Country Code": "CIV",
+   "Year": 2014,
+   "Value": 34253611098
+ },
+ {
+   "Country Name": "Croatia",
+   "Country Code": "HRV",
+   "Year": 2014,
+   "Value": 57222574023
+ },
+ {
+   "Country Name": "Cuba",
+   "Country Code": "CUB",
+   "Year": 2014,
+   "Value": 77149700000
+ },
+ {
+   "Country Name": "Cyprus",
+   "Country Code": "CYP",
+   "Year": 2014,
+   "Value": 23226158986
+ },
+ {
+   "Country Name": "Czech Republic",
+   "Country Code": "CZE",
+   "Year": 2014,
+   "Value": 205523000000
+ },
+ {
+   "Country Name": "Denmark",
+   "Country Code": "DNK",
+   "Year": 2014,
+   "Value": 341952000000
+ },
+ {
+   "Country Name": "Djibouti",
+   "Country Code": "DJI",
+   "Year": 2014,
+   "Value": 1581519706
+ },
+ {
+   "Country Name": "Dominica",
+   "Country Code": "DMA",
+   "Year": 2014,
+   "Value": 537777777.8
+ },
+ {
+   "Country Name": "Dominican Republic",
+   "Country Code": "DOM",
+   "Year": 2014,
+   "Value": 63968961563
+ },
+ {
+   "Country Name": "Ecuador",
+   "Country Code": "ECU",
+   "Year": 2014,
+   "Value": 100543000000
+ },
+ {
+   "Country Name": "Egypt, Arab Rep.",
+   "Country Code": "EGY",
+   "Year": 2014,
+   "Value": 286538000000
+ },
+ {
+   "Country Name": "El Salvador",
+   "Country Code": "SLV",
+   "Year": 2014,
+   "Value": 25220000000
+ },
+ {
+   "Country Name": "Equatorial Guinea",
+   "Country Code": "GNQ",
+   "Year": 2014,
+   "Value": 14308094225
+ },
+ {
+   "Country Name": "Eritrea",
+   "Country Code": "ERI",
+   "Year": 2014,
+   "Value": 3857821138
+ },
+ {
+   "Country Name": "Estonia",
+   "Country Code": "EST",
+   "Year": 2014,
+   "Value": 25904874312
+ },
+ {
+   "Country Name": "Ethiopia",
+   "Country Code": "ETH",
+   "Year": 2014,
+   "Value": 54797679658
+ },
+ {
+   "Country Name": "Fiji",
+   "Country Code": "FJI",
+   "Year": 2014,
+   "Value": 4029989729
+ },
+ {
+   "Country Name": "Finland",
+   "Country Code": "FIN",
+   "Year": 2014,
+   "Value": 270674000000
+ },
+ {
+   "Country Name": "France",
+   "Country Code": "FRA",
+   "Year": 2014,
+   "Value": 2829190000000
+ },
+ {
+   "Country Name": "Gabon",
+   "Country Code": "GAB",
+   "Year": 2014,
+   "Value": 17228443336
+ },
+ {
+   "Country Name": "Gambia, The",
+   "Country Code": "GMB",
+   "Year": 2014,
+   "Value": 807069488.2
+ },
+ {
+   "Country Name": "Georgia",
+   "Country Code": "GEO",
+   "Year": 2014,
+   "Value": 16529963187
+ },
+ {
+   "Country Name": "Germany",
+   "Country Code": "DEU",
+   "Year": 2014,
+   "Value": 3852560000000
+ },
+ {
+   "Country Name": "Ghana",
+   "Country Code": "GHA",
+   "Year": 2014,
+   "Value": 38648154100
+ },
+ {
+   "Country Name": "Greece",
+   "Country Code": "GRC",
+   "Year": 2014,
+   "Value": 237592000000
+ },
+ {
+   "Country Name": "Grenada",
+   "Country Code": "GRD",
+   "Year": 2014,
+   "Value": 882222222.2
+ },
+ {
+   "Country Name": "Guatemala",
+   "Country Code": "GTM",
+   "Year": 2014,
+   "Value": 58728232327
+ },
+ {
+   "Country Name": "Guinea",
+   "Country Code": "GIN",
+   "Year": 2014,
+   "Value": 6624068037
+ },
+ {
+   "Country Name": "Guinea-Bissau",
+   "Country Code": "GNB",
+   "Year": 2014,
+   "Value": 1022371992
+ },
+ {
+   "Country Name": "Guyana",
+   "Country Code": "GUY",
+   "Year": 2014,
+   "Value": 3228372888
+ },
+ {
+   "Country Name": "Haiti",
+   "Country Code": "HTI",
+   "Year": 2014,
+   "Value": 8713031260
+ },
+ {
+   "Country Name": "Honduras",
+   "Country Code": "HND",
+   "Year": 2014,
+   "Value": 19385309986
+ },
+ {
+   "Country Name": "Hong Kong SAR, China",
+   "Country Code": "HKG",
+   "Year": 2014,
+   "Value": 290896000000
+ },
+ {
+   "Country Name": "Hungary",
+   "Country Code": "HUN",
+   "Year": 2014,
+   "Value": 137104000000
+ },
+ {
+   "Country Name": "Iceland",
+   "Country Code": "ISL",
+   "Year": 2014,
+   "Value": 17071004499
+ },
+ {
+   "Country Name": "India",
+   "Country Code": "IND",
+   "Year": 2014,
+   "Value": 2066900000000
+ },
+ {
+   "Country Name": "Indonesia",
+   "Country Code": "IDN",
+   "Year": 2014,
+   "Value": 888538000000
+ },
+ {
+   "Country Name": "Iran, Islamic Rep.",
+   "Country Code": "IRN",
+   "Year": 2014,
+   "Value": 415339000000
+ },
+ {
+   "Country Name": "Iraq",
+   "Country Code": "IRQ",
+   "Year": 2014,
+   "Value": 220506000000
+ },
+ {
+   "Country Name": "Ireland",
+   "Country Code": "IRL",
+   "Year": 2014,
+   "Value": 245921000000
+ },
+ {
+   "Country Name": "Israel",
+   "Country Code": "ISR",
+   "Year": 2014,
+   "Value": 304226000000
+ },
+ {
+   "Country Name": "Italy",
+   "Country Code": "ITA",
+   "Year": 2014,
+   "Value": 2144340000000
+ },
+ {
+   "Country Name": "Japan",
+   "Country Code": "JPN",
+   "Year": 2014,
+   "Value": 4601460000000
+ },
+ {
+   "Country Name": "Jordan",
+   "Country Code": "JOR",
+   "Year": 2014,
+   "Value": 35826925775
+ },
+ {
+   "Country Name": "Kazakhstan",
+   "Country Code": "KAZ",
+   "Year": 2014,
+   "Value": 212248000000
+ },
+ {
+   "Country Name": "Kenya",
+   "Country Code": "KEN",
+   "Year": 2014,
+   "Value": 60936509778
+ },
+ {
+   "Country Name": "Kiribati",
+   "Country Code": "KIR",
+   "Year": 2014,
+   "Value": 166762323.6
+ },
+ {
+   "Country Name": "Korea, Rep.",
+   "Country Code": "KOR",
+   "Year": 2014,
+   "Value": 1410380000000
+ },
+ {
+   "Country Name": "Kosovo",
+   "Country Code": "",
+   "Year": 2014,
+   "Value": 7273849012
+ },
+ {
+   "Country Name": "Kuwait",
+   "Country Code": "KWT",
+   "Year": 2014,
+   "Value": 175827000000
+ },
+ {
+   "Country Name": "Kyrgyz Republic",
+   "Country Code": "KGZ",
+   "Year": 2014,
+   "Value": 7404412710
+ },
+ {
+   "Country Name": "Lao PDR",
+   "Country Code": "LAO",
+   "Year": 2014,
+   "Value": 11771725798
+ },
+ {
+   "Country Name": "Latvia",
+   "Country Code": "LVA",
+   "Year": 2014,
+   "Value": 31920815648
+ },
+ {
+   "Country Name": "Lebanon",
+   "Country Code": "LBN",
+   "Year": 2014,
+   "Value": 45730945274
+ },
+ {
+   "Country Name": "Lesotho",
+   "Country Code": "LSO",
+   "Year": 2014,
+   "Value": 2088021624
+ },
+ {
+   "Country Name": "Liberia",
+   "Country Code": "LBR",
+   "Year": 2014,
+   "Value": 2026939595
+ },
+ {
+   "Country Name": "Libya",
+   "Country Code": "LBY",
+   "Year": 2014,
+   "Value": 41119144923
+ },
+ {
+   "Country Name": "Lithuania",
+   "Country Code": "LTU",
+   "Year": 2014,
+   "Value": 48172242517
+ },
+ {
+   "Country Name": "Luxembourg",
+   "Country Code": "LUX",
+   "Year": 2014,
+   "Value": 60130847624
+ },
+ {
+   "Country Name": "Macao SAR, China",
+   "Country Code": "MAC",
+   "Year": 2014,
+   "Value": 55501532528
+ },
+ {
+   "Country Name": "Macedonia, FYR",
+   "Country Code": "MKD",
+   "Year": 2014,
+   "Value": 11323761624
+ },
+ {
+   "Country Name": "Madagascar",
+   "Country Code": "MDG",
+   "Year": 2014,
+   "Value": 10593147527
+ },
+ {
+   "Country Name": "Malawi",
+   "Country Code": "MWI",
+   "Year": 2014,
+   "Value": 4258033615
+ },
+ {
+   "Country Name": "Malaysia",
+   "Country Code": "MYS",
+   "Year": 2014,
+   "Value": 326933000000
+ },
+ {
+   "Country Name": "Maldives",
+   "Country Code": "MDV",
+   "Year": 2014,
+   "Value": 3032239478
+ },
+ {
+   "Country Name": "Mali",
+   "Country Code": "MLI",
+   "Year": 2014,
+   "Value": 12074473002
+ },
+ {
+   "Country Name": "Malta",
+   "Country Code": "MLT",
+   "Year": 2014,
+   "Value": 9642848650
+ },
+ {
+   "Country Name": "Marshall Islands",
+   "Country Code": "MHL",
+   "Year": 2014,
+   "Value": 190914600
+ },
+ {
+   "Country Name": "Mauritania",
+   "Country Code": "MRT",
+   "Year": 2014,
+   "Value": 5061180371
+ },
+ {
+   "Country Name": "Mauritius",
+   "Country Code": "MUS",
+   "Year": 2014,
+   "Value": 12616421088
+ },
+ {
+   "Country Name": "Mexico",
+   "Country Code": "MEX",
+   "Year": 2014,
+   "Value": 1282720000000
+ },
+ {
+   "Country Name": "Moldova",
+   "Country Code": "MDA",
+   "Year": 2014,
+   "Value": 7944184930
+ },
+ {
+   "Country Name": "Monaco",
+   "Country Code": "MCO",
+   "Year": 2014,
+   "Value": 6074884389
+ },
+ {
+   "Country Name": "Mongolia",
+   "Country Code": "MNG",
+   "Year": 2014,
+   "Value": 12015944337
+ },
+ {
+   "Country Name": "Montenegro",
+   "Country Code": "MNE",
+   "Year": 2014,
+   "Value": 4583198885
+ },
+ {
+   "Country Name": "Morocco",
+   "Country Code": "MAR",
+   "Year": 2014,
+   "Value": 107005000000
+ },
+ {
+   "Country Name": "Mozambique",
+   "Country Code": "MOZ",
+   "Year": 2014,
+   "Value": 16385584919
+ },
+ {
+   "Country Name": "Myanmar",
+   "Country Code": "MMR",
+   "Year": 2014,
+   "Value": 64330038665
+ },
+ {
+   "Country Name": "Namibia",
+   "Country Code": "NAM",
+   "Year": 2014,
+   "Value": 13429503285
+ },
+ {
+   "Country Name": "Nepal",
+   "Country Code": "NPL",
+   "Year": 2014,
+   "Value": 19636186469
+ },
+ {
+   "Country Name": "Netherlands",
+   "Country Code": "NLD",
+   "Year": 2014,
+   "Value": 869508000000
+ },
+ {
+   "Country Name": "New Zealand",
+   "Country Code": "NZL",
+   "Year": 2014,
+   "Value": 188385000000
+ },
+ {
+   "Country Name": "Nicaragua",
+   "Country Code": "NIC",
+   "Year": 2014,
+   "Value": 11805641287
+ },
+ {
+   "Country Name": "Niger",
+   "Country Code": "NER",
+   "Year": 2014,
+   "Value": 8168695870
+ },
+ {
+   "Country Name": "Nigeria",
+   "Country Code": "NGA",
+   "Year": 2014,
+   "Value": 568508000000
+ },
+ {
+   "Country Name": "Norway",
+   "Country Code": "NOR",
+   "Year": 2014,
+   "Value": 500103000000
+ },
+ {
+   "Country Name": "Oman",
+   "Country Code": "OMN",
+   "Year": 2014,
+   "Value": 81796618986
+ },
+ {
+   "Country Name": "Pakistan",
+   "Country Code": "PAK",
+   "Year": 2014,
+   "Value": 246876000000
+ },
+ {
+   "Country Name": "Panama",
+   "Country Code": "PAN",
+   "Year": 2014,
+   "Value": 46212600000
+ },
+ {
+   "Country Name": "Papua New Guinea",
+   "Country Code": "PNG",
+   "Year": 2014,
+   "Value": 15413163675
+ },
+ {
+   "Country Name": "Paraguay",
+   "Country Code": "PRY",
+   "Year": 2014,
+   "Value": 30984747863
+ },
+ {
+   "Country Name": "Peru",
+   "Country Code": "PER",
+   "Year": 2014,
+   "Value": 202903000000
+ },
+ {
+   "Country Name": "Philippines",
+   "Country Code": "PHL",
+   "Year": 2014,
+   "Value": 284582000000
+ },
+ {
+   "Country Name": "Poland",
+   "Country Code": "POL",
+   "Year": 2014,
+   "Value": 548003000000
+ },
+ {
+   "Country Name": "Portugal",
+   "Country Code": "PRT",
+   "Year": 2014,
+   "Value": 229584000000
+ },
+ {
+   "Country Name": "Puerto Rico",
+   "Country Code": "PRI",
+   "Year": 2014,
+   "Value": 103135000000
+ },
+ {
+   "Country Name": "Qatar",
+   "Country Code": "QAT",
+   "Year": 2014,
+   "Value": 211817000000
+ },
+ {
+   "Country Name": "Romania",
+   "Country Code": "ROU",
+   "Year": 2014,
+   "Value": 199044000000
+ },
+ {
+   "Country Name": "Russian Federation",
+   "Country Code": "RUS",
+   "Year": 2014,
+   "Value": 1860600000000
+ },
+ {
+   "Country Name": "Rwanda",
+   "Country Code": "RWA",
+   "Year": 2014,
+   "Value": 7890190337
+ },
+ {
+   "Country Name": "Samoa",
+   "Country Code": "WSM",
+   "Year": 2014,
+   "Value": 800586671.2
+ },
+ {
+   "Country Name": "Sao Tome and Principe",
+   "Country Code": "STP",
+   "Year": 2014,
+   "Value": 334902362.1
+ },
+ {
+   "Country Name": "Saudi Arabia",
+   "Country Code": "SAU",
+   "Year": 2014,
+   "Value": 746249000000
+ },
+ {
+   "Country Name": "Senegal",
+   "Country Code": "SEN",
+   "Year": 2014,
+   "Value": 15578916865
+ },
+ {
+   "Country Name": "Serbia",
+   "Country Code": "SRB",
+   "Year": 2014,
+   "Value": 43866423167
+ },
+ {
+   "Country Name": "Seychelles",
+   "Country Code": "SYC",
+   "Year": 2014,
+   "Value": 1405764158
+ },
+ {
+   "Country Name": "Sierra Leone",
+   "Country Code": "SLE",
+   "Year": 2014,
+   "Value": 4892363979
+ },
+ {
+   "Country Name": "Singapore",
+   "Country Code": "SGP",
+   "Year": 2014,
+   "Value": 307872000000
+ },
+ {
+   "Country Name": "Slovak Republic",
+   "Country Code": "SVK",
+   "Year": 2014,
+   "Value": 99790145653
+ },
+ {
+   "Country Name": "Slovenia",
+   "Country Code": "SVN",
+   "Year": 2014,
+   "Value": 49416055609
+ },
+ {
+   "Country Name": "Solomon Islands",
+   "Country Code": "SLB",
+   "Year": 2014,
+   "Value": 1158183054
+ },
+ {
+   "Country Name": "South Africa",
+   "Country Code": "ZAF",
+   "Year": 2014,
+   "Value": 349817000000
+ },
+ {
+   "Country Name": "South Sudan",
+   "Country Code": "SSD",
+   "Year": 2014,
+   "Value": 13069991258
+ },
+ {
+   "Country Name": "Spain",
+   "Country Code": "ESP",
+   "Year": 2014,
+   "Value": 1404310000000
+ },
+ {
+   "Country Name": "Sri Lanka",
+   "Country Code": "LKA",
+   "Year": 2014,
+   "Value": 74941183242
+ },
+ {
+   "Country Name": "St. Kitts and Nevis",
+   "Country Code": "KNA",
+   "Year": 2014,
+   "Value": 833333333.3
+ },
+ {
+   "Country Name": "St. Lucia",
+   "Country Code": "LCA",
+   "Year": 2014,
+   "Value": 1365426556
+ },
+ {
+   "Country Name": "St. Vincent and the Grenadines",
+   "Country Code": "VCT",
+   "Year": 2014,
+   "Value": 728696703.7
+ },
+ {
+   "Country Name": "Sudan",
+   "Country Code": "SDN",
+   "Year": 2014,
+   "Value": 73815376185
+ },
+ {
+   "Country Name": "Swaziland",
+   "Country Code": "SWZ",
+   "Year": 2014,
+   "Value": 3400422936
+ },
+ {
+   "Country Name": "Sweden",
+   "Country Code": "SWE",
+   "Year": 2014,
+   "Value": 570591000000
+ },
+ {
+   "Country Name": "Switzerland",
+   "Country Code": "CHE",
+   "Year": 2014,
+   "Value": 685434000000
+ },
+ {
+   "Country Name": "Tajikistan",
+   "Country Code": "TJK",
+   "Year": 2014,
+   "Value": 9241627841
+ },
+ {
+   "Country Name": "Tanzania",
+   "Country Code": "TZA",
+   "Year": 2014,
+   "Value": 49183884817
+ },
+ {
+   "Country Name": "Thailand",
+   "Country Code": "THA",
+   "Year": 2014,
+   "Value": 373804000000
+ },
+ {
+   "Country Name": "Timor-Leste",
+   "Country Code": "TLS",
+   "Year": 2014,
+   "Value": 1552000000
+ },
+ {
+   "Country Name": "Togo",
+   "Country Code": "TGO",
+   "Year": 2014,
+   "Value": 4518443907
+ },
+ {
+   "Country Name": "Tonga",
+   "Country Code": "TON",
+   "Year": 2014,
+   "Value": 434386307.7
+ },
+ {
+   "Country Name": "Trinidad and Tobago",
+   "Country Code": "TTO",
+   "Year": 2014,
+   "Value": 24433812700
+ },
+ {
+   "Country Name": "Tunisia",
+   "Country Code": "TUN",
+   "Year": 2014,
+   "Value": 46994804036
+ },
+ {
+   "Country Name": "Turkey",
+   "Country Code": "TUR",
+   "Year": 2014,
+   "Value": 799535000000
+ },
+ {
+   "Country Name": "Turkmenistan",
+   "Country Code": "TKM",
+   "Year": 2014,
+   "Value": 47931929825
+ },
+ {
+   "Country Name": "Ukraine",
+   "Country Code": "UKR",
+   "Year": 2014,
+   "Value": 131805000000
+ },
+ {
+   "Country Name": "United Arab Emirates",
+   "Country Code": "ARE",
+   "Year": 2014,
+   "Value": 401647000000
+ },
+ {
+   "Country Name": "United Kingdom",
+   "Country Code": "GBR",
+   "Year": 2014,
+   "Value": 2941890000000
+ },
+ {
+   "Country Name": "United States",
+   "Country Code": "USA",
+   "Year": 2014,
+   "Value": 17419000000000
+ },
+ {
+   "Country Name": "Uruguay",
+   "Country Code": "URY",
+   "Year": 2014,
+   "Value": 57471277325
+ },
+ {
+   "Country Name": "Uzbekistan",
+   "Country Code": "UZB",
+   "Year": 2014,
+   "Value": 62643953022
+ },
+ {
+   "Country Name": "Venezuela, RB",
+   "Country Code": "VEN",
+   "Year": 2014,
+   "Value": 509964000000
+ },
+ {
+   "Country Name": "Vietnam",
+   "Country Code": "VNM",
+   "Year": 2014,
+   "Value": 186205000000
+ },
+ {
+   "Country Name": "West Bank and Gaza",
+   "Country Code": "PSE",
+   "Year": 2014,
+   "Value": 12737613125
+ },
+ {
+   "Country Name": "Yemen, Rep.",
+   "Country Code": "YEM",
+   "Year": 2014,
+   "Value": 35954502304
+ },
+ {
+   "Country Name": "Zambia",
+   "Country Code": "ZMB",
+   "Year": 2014,
+   "Value": 27066230009
+ },
+ {
+   "Country Name": "Zimbabwe",
+   "Country Code": "ZWE",
+   "Year": 2014,
+   "Value": 13663314280
+ }
+]

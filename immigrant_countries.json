@@ -1,0 +1,133 @@
+var data = 
+[
+	{
+	  "Name": "Panda Express",
+	  "Founder": "Andrew & Peggy Chern",
+	  "Country": "Myanmar",
+	  "Employees": "24,000",
+	  "coordinates": [
+          34.0805651, 
+          -118.07284600000003
+        ]
+	},
+	{
+	  "Name": "Kraft",
+	  "Founder": "James L. Kraft",
+	  "Country": "Canada",
+	  "Employees": "22,000",
+	  "coordinates": [
+          41.8781136,
+          -87.6297982
+        ]
+	},
+	{
+	  "Name": "Zumba",
+	  "Founder": "Alberto Perez",
+	  "Country": "Colombia",
+	  "Employees": "Undisclosed",
+	  "coordinates": [
+          25.9812024,
+          -80.14837899999998
+        ]
+	},
+	{
+	  "Name": "Capital One",
+	  "Founder": "Nigel Morris",
+	  "Country": "England",
+	  "Employees": "45,000",
+	  "coordinates": [
+          38.9178,
+          -77.222471
+        ]
+	},
+	{
+	  "Name": "eBay",
+	  "Founder": "Pierre Morad Omidyar",
+	  "Country": "France",
+	  "Employees": "11,000",
+	  "coordinates": [
+          37.295145,
+          -121.926111
+        ]
+	},
+	{
+	  "Name": "Pfizer",
+	  "Founder": "Charles Pfizer",
+	  "Country": "Germany",
+	  "Employees": "97,900",
+	  "coordinates": [
+          41.3497456,
+          -72.07907169999999
+        ]
+	},
+	{
+	  "Name": "Huffington Post",
+	  "Founder": "Arianna Huffington",
+	  "Country": "Greece",
+	  "Employees": "200",
+	  "coordinates": [
+          40.730601,
+          -73.991522
+        ]
+	},
+	{
+	  "Name": "Intel",
+	  "Founder": "Andrew Grove",
+	  "Country": "Hungary",
+	  "Employees": "107,000",
+	  "coordinates": [
+          37.384673,
+          -121.96383
+        ]
+	},
+	{
+	  "Name": "Kohl's",
+	  "Founder": "Maxwell Kohl",
+	  "Country": "Poland",
+	  "Employees": "140,000",
+	  "coordinates": [
+          43.1788967,
+          -88.11731320000001
+        ]
+	},
+	{
+	  "Name": "Google",
+	  "Founder": "Sergey Brin",
+	  "Country": "Russia",
+	  "Employees": "53,000",
+	  "coordinates": [
+          37.3860517,
+          -122.0838511
+        ]
+	},
+	{
+	  "Name": "Tesla",
+	  "Founder": "Elon Musk",
+	  "Country": "South Africa",
+	  "Employees": "18,000",
+	  "coordinates": [
+          37.4418834,
+          -122.14301949999998
+        ]
+	},
+	{
+	  "Name": "Yahoo",
+	  "Founder": "Jerry Yang",
+	  "Country": "Taiwan",
+	  "Employees": "11,260",
+	  "coordinates": [
+          37.36883,
+          -122.0363496
+        ]
+	},
+	{
+	  "Name": "Chobani",
+	  "Founder": "Hamdi Ulukaya",
+	  "Country": "Turkey",
+	  "Employees": "2000",
+	  "coordinates": [
+          42.531184,
+          -75.5235149
+        ]
+	}
+];

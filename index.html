@@ -1,89 +1,351 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<html lang="en">
+
+<head>
     <meta charset="utf-8">
-    <title>Shunta McDavid</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet"> 
-	<link href="https://fonts.googleapis.com/css?family=Raleway:500" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
-	<link rel="stylesheet" href="./css/media.css">
-  </head>
-	
-  <body>
-	  	<header>
-			<nav>
-				<ul>
-					<li><a href="#work"><strong>My Work</strong></a></li>
-					<li><a href="./aboutme.html"><strong>About Me</strong></a></li>
-					<li><a href="#contactMe"><strong>Contact</strong></a></li>
-				</ul>
-			</nav>
-			<h3 id="homelink"><a href="index.html">Shunta McDavid</a></h3>
-		</header>
-	  
-	
-		<div class="wrapper">
-			<main id="work">
-				<div>
-					<h1 class="firstHeader">My Work</h1>
-				</div>
-				<div class="row">
-					<div class="card left-box"><a href="msd.html">
-					  <img src="images/mobileservicedesign/pageicon.jpg" alt="Mobile Service Design">
-					  <div class="container">
-						<h4><b>Peer Park</b></h4> 
-						<p>Mobile Apps, Peer Economy, and Value Co-Production</p> 
-					  </div>
-						</a></div>
-					<div class="card left-box"><a href="">
-					  <img src="images/iotkickstarter/pageicon.jpg" alt="IoT Kickstarter">
-					  <div class="container">
-						<h4><b>FollowMeBee</b></h4> 
-						<p>Internet of Things (IoT) Kickstarter Video</p> 
-					  </div></a>
-					</div>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Immigrant Impact</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <link rel="stylesheet" href="css/odometer-theme-default.css" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
-					<div class="card last-box"><a href="ipa.html">
-					  <img src="images/servicedesign/logonew.jpg" alt="Service Design">
-					  <div class="container">
-						<h4><b>Inner Power Academy</b></h4> 
-						<p>Service Design for Children with Asthma</p> 
-					  </div>
-					</a></div>
-				</div>
-			</main>
-	  	</div>
-	  
-		<footer id="contactMe">
-			<div class="wrapper">
-				<div class="right">
-					<h1 id="portfolio">Contact Me</h1>
-					<ul>
-						<li><a href="mailto:shuntamcd@gmail.com?Subject=Hey%20Shunta" target="_top">shuntamcd[at]gmail.com</a></li>
-						<li><a href="files/Shunta%20McDavid%20Resume.pdf">Resume</a></li>
-						<li><a href="https://www.linkedin.com/in/smcdavid" target="_blank" >LinkedIn</a></li>
-						<li><a href="https://github.com/smcdavid" target="_blank" >GitHub</a></li>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Immigrant Impact</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#intro">Intro</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#grid">Statistics</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#economy">Economic Power</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">States</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#map">Map</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Initial Section -->
+    <section id="initial" class="initial-section">
+      <div class="container">
+        <h1>Impact of Immigrants on the Economy</h1>
+        <br>
+        <h4 class="col-md-8 col-md-offset-2">Recently, there has been a lot of controversy over immigration in the USA with the muslim immigration ban. This controversy sparked our curiosity on the impact of immigration in the USA. Does immigration negatively affect the economy and cause issues in this country? What is the impact of immigration in the USA?</h4>
+      </div>
+    </section>
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="block-stat">
+                        <div><span id="immigrantpop" class="odometer">0</span> <span class="num-head">M</span></div>
+                        <div class="num-caption">immigrants living in the U.S.</div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="block-stat">
+                        <div id="fortune500" class="odometer">0</div>
+                        <div class="num-caption">Percentage of Fortune 500 firms with at least one founder who is an immigrant or the child of immigrants</div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="block-stat">
+                        <div id="shareofecon" class="odometer">0</div>
+                        <div class="num-caption">Percentage of total U.S. Economic Output</div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="block-stat">
+                        <div><span id="moneyspent" class="odometer">0</span>B</div>
+                        <div class="num-caption">dollars spent by immigrants in the U.S. last year</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section id="grid" class="contact-section gray-bg-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>
+                        What does the number of immigrants actually look like?
+                    </h2>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-lg-6">
+                    <svg id="people-grid" width="400px" height="400px"></svg>
+                </div>
+                <div class="col-lg-6">
+                    <p> 12 out of every 100 people in the U.S. is an immigrant and an additional 24% of americans are first or second generation immigrants. We are part of the great melting pot. Immigrants in America have contributed to the economy and have helped it prosper over time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section id="economy" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Immigrants' Spending Power vs. GDP of countries</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Immigrants have contributed back to the economy and have been very entrepreneurial.
+                        In fact, immigrants are more likely to start businesses. If we took the spending power of immigrants in the U.S., they would be the 16th biggest country in the world.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <svg id="gdp-2014" width="960" height="500"></svg>
+                </div>
+                <div class="col-lg-4">
+                  <div id="firstImpression" style="padding-top:70px;">
+                    <input name="updateButton"
+                         type="button"
+                         value="Not Impressed?"
+                         onclick="updateBars()" />
+                   </div>
+                   <div id="secondImpression" style="display:none; padding-top:70px;">
+                      <h3>
+                        If US immigrants were a country, they would be the <strong>16th</strong> position.
+                      </h3>
+                      <br>
+                       <input name="updateButton"
+                            type="button"
+                            value="Not Impressed Yet?"
+                            onclick="updateFinalBars()" />
+                      <br>
+                       <input name="updateButton"
+                            type="button"
+                            value="Go Back"
+                            onclick="updateInitialBars()" />
+                   </div>
+                   <div id="finalImpression" style="display:none; padding-top:70px;">
+                     <h3>
+                       <strong>16th</strong> of 195 countries.
+                     </h3>
+                     <br>
+                     <br>
+                       <input name="updateButton"
+                            type="button"
+                            value="Go Back"
+                            onclick="updateBars()" />
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section gray-bg-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Learn more at a state level</h2>
+                </div>
+            </div>
+            <select></select>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="block-stat">
+                        <p id="state-info"></p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="block-stat">
+                        <p id="state-pop"></p>
+                        <p class="num-caption">immigrants living in this state</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="block-stat">
+                        <p id="state-taxes"></p>
+                        <p class="num-caption">of taxes paid by immigrants in this state</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="block-stat">
+                        <p id="state-employees"></p>
+                        <p class="num-caption">people employed by immigrants in this state</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-					</ul>
-				</div>
-			</div>
-		</footer>
-	<a href="#0" class="cd-top">Top</a>
-	  
-	<script src="./js/code.js"></script>
-	<script src="./js/scroll.js"></script>
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-93702503-1', 'auto');
-  ga('send', 'pageview');
 
-	</script>
-  </body>
+    <section id="map-s" class="intro-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Companies started by immigrants in the U.S.</h2>
+            <p>Immigrants are 30% more likely to start a business. We were curious and wanted to illustrate this fact. Below, you can see fortune 500 companies founded by immigrants and see the number of people they employ. </p>
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="map"></div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="reference" class="reference-section gray-bg-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>References and thank you</h2>
+            <p>We would like to thank Adam Perer for the guidance through this project</p>
+            <p>[1] <a href="http://www.newamericaneconomy.org/locations/" target="_blank">newamericaneconomy.org</a></p>
+            <p>[2] INC top 100 companies</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/odometer.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <script type="text/javascript" src="immigrant_countries.json"></script>
+    <script src="js/d3Scripts.js"></script>
+    <script src="js/new.js"></script>
+    <script>
+
+
+    function animateNumbers(){
+      setTimeout(function() {
+          immigrantpop.innerHTML = 40;
+      }, 1000);
+
+      setTimeout(function() {
+          fortune500.innerHTML = 40.2;
+      }, 1000);
+
+      setTimeout(function() {
+          shareofecon.innerHTML = 14.2;
+      }, 1000);
+
+      setTimeout(function() {
+          moneyspent.innerHTML = 126;
+      }, 1000);
+    }
+
+
+
+    // initialize the map
+    var map = L.map('map').setView([37.09024, -95.712891], 4);
+
+    // load a tile layer
+    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    for (var i = 0; i < data.length; i++) {
+        marker = new L.marker(data[i]['coordinates'])
+            .bindPopup("<table>" + "<tr><td>Company: " + data[i]['Name'] + "</td></tr><tr><td>Founder: " + data[i]['Founder'] + "</td></tr><tr><td>Number of Employees: " + data[i]['Employees'] + "</td></tr><tr><td>Country of Origin: " + data[i]['Country'] + "</td></tr>" + "</table>")
+            .addTo(map);
+    };
+
+
+
+
+    var JSON;
+
+    $.getJSON('WebScraper/info.json', function(response) {
+        JSON = response;
+
+        var keys = Object.keys(JSON);
+        keys = keys.sort();
+
+        for (var i = 0; i < keys.length; i++) {
+            var option = $('<option></option>').text(keys[i]);
+            $('select').append(option);
+        }
+
+
+        $("#state-info").text(JSON['Alabama']['info']);
+        $("#state-pop").text(JSON['Alabama']['Immigrant Residents']);
+        $("#state-taxes").text(JSON['Alabama']['Immigrant Taxes Paid (2014)']);
+        $("#state-employees").text(JSON['Alabama']['Employees at Immigrant-Owned Firms']);
+
+
+        $('select').on('change', function() {
+            var selected = String($(this).find(":selected").val());
+            $("#state-info").text(JSON[selected]['info']);
+            $("#state-pop").text(JSON[selected]['Immigrant Residents']);
+            $("#state-taxes").text(JSON[selected]['Immigrant Taxes Paid (2014)']);
+            $("#state-employees").text(JSON[selected]['Employees at Immigrant-Owned Firms']);
+
+        });
+
+
+
+
+    })
+    </script>
+    <style type="text/css">
+    th {
+        padding-right: 5px;
+    }
+    </style>
+</body>
+
 </html>
-
