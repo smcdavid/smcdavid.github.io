@@ -2308,6 +2308,7 @@
 	/* On mouse-over, add a deeper shadow */
 	.card:hover {
 		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+		background: rgba(188, 202, 206, 0.15);
 	}
 
 	.cardcont {
@@ -3036,7 +3037,7 @@
 			}
 
 			p {
-				text-align: justify;
+				text-align: center;
 			}
 
 		/* Section/Article */
