@@ -2312,8 +2312,11 @@
 	}
 
 	.cardcont {
-		padding: 1% 7%;
+		padding:1% 7%;
 		color:#7c8081;
+	}
+	.cardcont h3 {
+		margin-top:5%;
 	}
 	
 
