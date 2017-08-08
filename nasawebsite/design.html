@@ -33,11 +33,8 @@
 					<header class="special container animated fadeIn">
 						<span class="icon fa-laptop"></span>
 						<h2><strong>Iterative Design</strong></h2>
-						<!-- <h2><strong>How do we provide the right information 
-						<br />
-						to engineers in the launch room during
-						<br />	
-						the 8 hours before launch?</strong></h2> -->
+						<p>After spending about five months researching and coming up with four main insights, we narrowed to three main problems that we were trying to solve. 
+						</p> 
 					</header> 
 				<!-- 3 Problems -->
 						<section class="wrapper style4 container wow fadeInLeft">
@@ -52,7 +49,7 @@
 												<span class="icon featured fa-bolt" style="color:#D32F2F"></span>
 												<p><strong>Lose Critical Event Prioritization over OIS</strong>
 												<br>
-												With verbal communication over OIS, all information is disseminated with equal importance. The Integration Engineer is often listening to six to eight active channels simultaneously. Critical event announcements that require immediate attention, like this Liquid Hydrogen Tank Level Anomaly, must compete with less pressing dialog.</p>
+												With verbal communication over the Operational Intercom System (OIS), all information is disseminated with equal importance. The Integration Engineer is often listening to six to eight active channels simultaneously. Critical event announcements that require immediate attention, like the incorrect amount of liquid hydrogen in the fuel tank, must compete with less pressing dialog.</p>
 											</div>										
 											<div class="4u 12u(narrower)">
 												<span class="icon featured fa-bolt" style="color:#D32F2F"></span>
@@ -83,7 +80,7 @@
 												<span class="icon featured fa-exclamation-circle" style="color:#1DE9B6"></span>
 												<p><strong>Notifications</strong>
 												<br>
-												 Notifications grab the Integration Engineer's attention to provide the right information at the right time. Critical events must emerge from the cacophony of less significant verbal exchanges. Notifications ensure that the information the Integration Engineer receives is prioritized and clear.</p>
+												 Notifications grab the Integration Engineer’s attention to provide the right information at the right time. Critical events must emerge from the cacophony of less significant verbal exchanges. Notifications ensure that the information the Integration Engineer receives is prioritized and clear.</p>
 											</div>										
 											<div class="4u 12u(narrower)">
 												<span class="icon featured fa-pencil-square-o" style="color:#1DE9B6"></span>
@@ -102,44 +99,90 @@
 								</div>
 						</section>	
 
-				<!--One-->		
-					<section class="wrapper style1 container special">
-						<h2><strong>How did we get here?</strong></h2>	
-						<div class="row">
-								<div class="4u 12u(narrower)">
-
-									<section>
-										<span class="icon featured fa-book"></span>
-										<header>
-											<h3><strong>83</strong> research journals</h3>
-										</header>
-										<p>We dove into research with a wealth of publicly available material regarding NASA, literature pertaining to our analogous domains, competitive analysis, and academic research journals/books in the fields of cognitive science and psychology.</p>
-									</section>
-
+				<!--Features-->		
+					<section class="wrapper style3 container special-alt wow fadeInUp">
+							<div class="row">
+								<div class="7u 12u(narrower)">
+									<h2>Notifications</h2>
+									<p>Notifications serve the Integration Engineer the information he needs,
+									right when he needs it. Although Loop rarely aims to
+									pull the Integration Engineer’s attention away from his complex and vital
+									work, there are five categories of critical events that
+									the Integration Engineer can not afford to miss. “Break-break” alerts are
+									of the highest importance and alert the launch room
+									team to stop whatever they are engaged in, as there is
+									a critical issue that must be resolved. Anomaly calls are
+									the second-most important type of notification. They
+									denote the start of the troubleshooting process led by
+									the Integration Engineer. The Integration Engineer also
+									needs to act when his call-sign (his title in the launch
+									room) is mentioned. Lastly, events such as Milestones,
+									such as the start of fueling, and weather conditions,
+									such as lightning or winds over a certain threshold,
+									also demand the Integration Engineer’s immediate attention. Currently
+									these events are only announced over the intercom,
+									where they must compete with many conversations
+									happening simultaneously. Conversely, Loop uses
+									notifications to provide a redundant and prominent
+									avenue to receive this essential information.
+									</p>
 								</div>
-								<div class="4u 12u(narrower)">
-
-									<section>
-										<span class="icon featured fa-users"></span>
-										<header>
-											<h3><strong>25</strong> Interviews</h3>
-										</header>
-										<p>We interviewed professionals from analogous domains and a former employee from SpaceX. We also conducted phone and in-person interviews with a wide variety of NASA stakeholders, from big picture-oriented Knowledge Management officials, to operations-focused engineers, to an astronaut. </p>
-									</section>
-
-								</div>
-								<div class="4u 12u(narrower)">
-
-									<section>
-										<span class="icon featured fa-object-group"></span>
-										<header>
-											<h3><strong>2</strong> Speed dating sections</h3>
-										</header>
-										<p>We articulated our design ideas into storyboard scenarios that tested assumption boundaries, and then conducted speed dating sessions with two users to gauge their reactions and solicit their feedback.</p>
-									</section>
-
-								</div>
+								<div class="5u 12u(narrower) important(narrower)"></div>
 							</div>
+						
+							<div class="row">
+								<div class="7u 12u(narrower)">
+									<h2>Transcription</h2>
+									<p>The Integration Engineer always misses important information said over
+									OIS. Powered by Google Cloud Speech API, Loop
+									transcribes every communication channel and allows
+									the user to navigate between them. The transcription
+									of simultaneous lines of verbal communication
+									provides the Integration Engineer with a point of reference that he
+									can access whenever necessary. It also highlights
+									significant words and transforms them into buttons
+									to direct users to relevant information. Details in the
+									scroll bar empower the Integration Engineer with the ability to scan the
+									transcription for specific details that are relevant to his
+									current task.</p>
+									<p>NASA personnel in the launch room customize their
+									tools and workspace using post-it’s, annotations,
+									order, and other techniques. Our research revealed
+									that they find this sort of personal organization
+									reassuring and helpful. Therefore, it is important that
+									Loop also enables customization, and this is available
+									with keywords. The Integration Engineer can enter specific keywords
+									that are important to him and the transcription will
+									highlight them, making them easily identifiable.</p>
+								</div>
+								<div class="5u 12u(narrower) important(narrower)"></div>
+							</div>
+						
+							<div class="row">
+								<div class="7u 12u(narrower)">		
+									<h2>Data Integration</h2>
+									<p>NASA generates an exorbitant amount of data on
+									every aspect of the vehicle. The Integration Engineer needs to access this
+									information when troubleshooting an anomaly. Loop’s
+									data integration in the Dashboard empowers the Integration Engineer to
+									interact with disparate data presented succinctly and
+									intuitively, uncovering relationships between related
+									technical requirements and real-time telemetry sensor
+									data from the spacecraft and rocket. Within this
+									unified, customizable environment, the Integration Engineer can move
+									onto in-depth analysis, status discovery, and towards
+									finalizing a decision to launch. Loop also presents a
+									variety of methods to access this information because
+									each scenario can require a vastly different approach.</p>
+								</div>
+								<div class="5u 12u(narrower) important(narrower)"></div>
+							</div>
+								
+							<footer class="major">
+								<ul class="buttons">
+									<li><a href="about.html" class="button">Meet Loop!</a></li>
+								</ul>
+							</footer>
 						</section>
 					
 
